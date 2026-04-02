@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "description": "典型职业任务分解数据，包含各职业的核心任务、任务可替代性评估",
+    "source": "综合职业分类大典和AI任务分析研究",
+    "methodology": "任务分解基于O*NET职业分析框架"
+  },
+  "occupations": [
+    {
+      "occupation_code": "C0101",
+      "occupation_name": "机械工程师",
+      "industry_association": ["C制造业", "D电力热力燃气水生产"],
+      "core_tasks": [
+        {
+          "task_name": "产品设计",
+          "task_description": "使用CAD软件进行产品设计和建模",
+          "ai替代可行性": 0.65,
+          "estimated_year": 2027,
+          "task_complexity": "高",
+          "required_skills": ["CAD", "工程力学", "材料学"]
+        },
+        {
+          "task_name": "工艺规划",
+          "task_description": "制定产品加工工艺流程",
+          "ai替代可行性": 0.70,
+          "estimated_year": 2026,
+          "task_complexity": "中",
+          "required_skills": ["工艺设计", "生产管理"]
+        },
+        {
+          "task_name": "设备维护",
+          "task_description": "生产设备日常维护和故障诊断",
+          "ai替代可行性": 0.45,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["机械维修", "故障诊断"]
+        },
+        {
+          "task_name": "质量检测",
+          "task_description": "产品质量检验和质量控制",
+          "ai替代可行性": 0.80,
+          "estimated_year": 2025,
+          "task_complexity": "中",
+          "required_skills": ["质量工程", "检测技术"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "F0101",
+      "occupation_name": "会计",
+      "industry_association": ["K租赁和商务服务业", "I金融业"],
+      "core_tasks": [
+        {
+          "task_name": "账务处理",
+          "task_description": "日常记账、凭证录入",
+          "ai替代可行性": 0.90,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["会计软件", "财务知识"]
+        },
+        {
+          "task_name": "财务报表编制",
+          "task_description": "编制月度/季度/年度财务报表",
+          "ai替代可行性": 0.75,
+          "estimated_year": 2026,
+          "task_complexity": "中",
+          "required_skills": ["财务分析", "Excel"]
+        },
+        {
+          "task_name": "税务申报",
+          "task_description": "计算和申报各类税费",
+          "ai替代可行性": 0.60,
+          "estimated_year": 2027,
+          "task_complexity": "中",
+          "required_skills": ["税法", "税务软件"]
+        },
+        {
+          "task_name": "财务分析",
+          "task_description": "为企业提供财务分析和建议",
+          "ai替代可行性": 0.40,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["财务分析", "商业洞察"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "I0101",
+      "occupation_name": "银行柜员",
+      "industry_association": ["I金融业"],
+      "core_tasks": [
+        {
+          "task_name": "现金业务",
+          "task_description": "存取款、转账等现金业务",
+          "ai替代可行性": 0.95,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["银行系统", "点钞"]
+        },
+        {
+          "task_name": "客户咨询",
+          "task_description": "解答客户银行业务问题",
+          "ai替代可行性": 0.70,
+          "estimated_year": 2026,
+          "task_complexity": "中",
+          "required_skills": ["银行业务", "沟通"]
+        },
+        {
+          "task_name": "产品营销",
+          "task_description": "推荐银行产品和服务",
+          "ai替代可行性": 0.55,
+          "estimated_year": 2028,
+          "task_complexity": "中",
+          "required_skills": ["营销", "产品知识"]
+        },
+        {
+          "task_name": "复杂业务办理",
+          "task_description": "处理贷款、理财等复杂业务",
+          "ai替代可行性": 0.30,
+          "estimated_year": 2030,
+          "task_complexity": "高",
+          "required_skills": ["金融产品", "风险评估"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "G0101",
+      "occupation_name": "货运司机",
+      "industry_association": ["G交通运输仓储邮政业"],
+      "core_tasks": [
+        {
+          "task_name": "货物运输",
+          "task_description": "驾驶货车完成货物运输",
+          "ai替代可行性": 0.50,
+          "estimated_year": 2029,
+          "task_complexity": "中",
+          "required_skills": ["驾驶证", "驾驶技能"]
+        },
+        {
+          "task_name": "货物装卸",
+          "task_description": "货物装车和卸货",
+          "ai替代可行性": 0.40,
+          "estimated_year": 2030,
+          "task_complexity": "中",
+          "required_skills": ["体力", "物流知识"]
+        },
+        {
+          "task_name": "车辆维护",
+          "task_description": "日常车辆检查和保养",
+          "ai替代可行性": 0.60,
+          "estimated_year": 2028,
+          "task_complexity": "低",
+          "required_skills": ["车辆维修"]
+        },
+        {
+          "task_name": "路线规划",
+          "task_description": "规划最优运输路线",
+          "ai替代可行性": 0.85,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["导航软件"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "O0101",
+      "occupation_name": "中学教师",
+      "industry_association": ["O教育"],
+      "core_tasks": [
+        {
+          "task_name": "课堂教学",
+          "task_description": "学科知识讲授",
+          "ai替代可行性": 0.35,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["学科知识", "教学法"]
+        },
+        {
+          "task_name": "作业批改",
+          "task_description": "批改学生作业和试卷",
+          "ai替代可行性": 0.85,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["学科知识"]
+        },
+        {
+          "task_name": "学生管理",
+          "task_description": "班级管理和学生心理辅导",
+          "ai替代可行性": 0.20,
+          "estimated_year": 2032,
+          "task_complexity": "高",
+          "required_skills": ["教育心理学", "管理"]
+        },
+        {
+          "task_name": "教学研发",
+          "task_description": "课程设计和教学资源开发",
+          "ai替代可行性": 0.45,
+          "estimated_year": 2028,
+          "task_complexity": "高",
+          "required_skills": ["教研", "创新"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "R0101",
+      "occupation_name": "软件工程师",
+      "industry_association": ["R信息传输软件和信息技术服务业"],
+      "core_tasks": [
+        {
+          "task_name": "编码实现",
+          "task_description": "根据需求编写程序代码",
+          "ai替代可行性": 0.55,
+          "estimated_year": 2028,
+          "task_complexity": "中",
+          "required_skills": ["编程语言", "算法"]
+        },
+        {
+          "task_name": "代码审查",
+          "task_description": "审查他人代码质量",
+          "ai替代可行性": 0.40,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["编程经验", "架构"]
+        },
+        {
+          "task_name": "系统设计",
+          "task_description": "设计软件系统架构",
+          "ai替代可行性": 0.25,
+          "estimated_year": 2031,
+          "task_complexity": "高",
+          "required_skills": ["系统架构", "经验"]
+        },
+        {
+          "task_name": "技术调研",
+          "task_description": "新技术研究和可行性分析",
+          "ai替代可行性": 0.50,
+          "estimated_year": 2028,
+          "task_complexity": "高",
+          "required_skills": ["研究能力", "技术敏感"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "P0101",
+      "occupation_name": "医生",
+      "industry_association": ["P卫生和社会工作"],
+      "core_tasks": [
+        {
+          "task_name": "诊断分析",
+          "task_description": "分析症状做出诊断",
+          "ai替代可行性": 0.45,
+          "estimated_year": 2028,
+          "task_complexity": "高",
+          "required_skills": ["医学知识", "临床经验"]
+        },
+        {
+          "task_name": "病历书写",
+          "task_description": "撰写和整理病历文档",
+          "ai替代可行性": 0.80,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["医学知识", "文档处理"]
+        },
+        {
+          "task_name": "手术操作",
+          "task_description": "进行手术治疗",
+          "ai替代可行性": 0.30,
+          "estimated_year": 2030,
+          "task_complexity": "高",
+          "required_skills": ["外科技术", "临床经验"]
+        },
+        {
+          "task_name": "患者沟通",
+          "task_description": "与患者交流病情和治疗方案",
+          "ai替代可行性": 0.15,
+          "estimated_year": 2035,
+          "task_complexity": "高",
+          "required_skills": ["沟通", "同理心"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "F0201",
+      "occupation_name": "销售代表",
+      "industry_association": ["F批发和零售业", "K租赁和商务服务业"],
+      "core_tasks": [
+        {
+          "task_name": "客户开发",
+          "task_description": "寻找和开发新客户",
+          "ai替代可行性": 0.60,
+          "estimated_year": 2027,
+          "task_complexity": "中",
+          "required_skills": ["销售技巧", "沟通"]
+        },
+        {
+          "task_name": "产品推介",
+          "task_description": "向客户介绍产品优势",
+          "ai替代可行性": 0.55,
+          "estimated_year": 2027,
+          "task_complexity": "中",
+          "required_skills": ["产品知识", "演示"]
+        },
+        {
+          "task_name": "商务谈判",
+          "task_description": "价格和合同谈判",
+          "ai替代可行性": 0.30,
+          "estimated_year": 2030,
+          "task_complexity": "高",
+          "required_skills": ["谈判技巧", "心理"]
+        },
+        {
+          "task_name": "客户维护",
+          "task_description": "维护老客户关系",
+          "ai替代可行性": 0.35,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["关系管理"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "K0201",
+      "occupation_name": "人力资源专员",
+      "industry_association": ["K租赁和商务服务业"],
+      "core_tasks": [
+        {
+          "task_name": "简历筛选",
+          "task_description": "筛选求职者简历",
+          "ai替代可行性": 0.85,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["HR软件", "岗位理解"]
+        },
+        {
+          "task_name": "面试安排",
+          "task_description": "协调候选人面试时间",
+          "ai替代可行性": 0.90,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["协调能力"]
+        },
+        {
+          "task_name": "招聘面试",
+          "task_description": "进行求职者面试评估",
+          "ai替代可行性": 0.40,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["面试技巧", "识人"]
+        },
+        {
+          "task_name": "员工关系",
+          "task_description": "处理员工关系和冲突",
+          "ai替代可行性": 0.25,
+          "estimated_year": 2032,
+          "task_complexity": "高",
+          "required_skills": ["沟通", "法律知识"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "Q0101",
+      "occupation_name": "文案编辑",
+      "industry_association": ["Q文化体育娱乐业"],
+      "core_tasks": [
+        {
+          "task_name": "内容撰写",
+          "task_description": "撰写各类文案内容",
+          "ai替代可行性": 0.60,
+          "estimated_year": 2027,
+          "task_complexity": "中",
+          "required_skills": ["写作", "创意"]
+        },
+        {
+          "task_name": "文字校对",
+          "task_description": "检查和修改文字错误",
+          "ai替代可行性": 0.90,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["语言能力"]
+        },
+        {
+          "task_name": "内容策划",
+          "task_description": "策划内容选题和方向",
+          "ai替代可行性": 0.35,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["策划", "市场洞察"]
+        },
+        {
+          "task_name": "热点分析",
+          "task_description": "分析时事热点和趋势",
+          "ai替代可行性": 0.55,
+          "estimated_year": 2028,
+          "task_complexity": "中",
+          "required_skills": ["分析", "敏感度"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "E0101",
+      "occupation_name": "建筑师",
+      "industry_association": ["E建筑业", "J房地产业"],
+      "core_tasks": [
+        {
+          "task_name": "建筑设计",
+          "task_description": "进行建筑方案设计和绘图",
+          "ai替代可行性": 0.55,
+          "estimated_year": 2028,
+          "task_complexity": "高",
+          "required_skills": ["建筑设计", "CAD", "规范"]
+        },
+        {
+          "task_name": "图纸审核",
+          "task_description": "审核施工图纸",
+          "ai替代可行性": 0.45,
+          "estimated_year": 2029,
+          "task_complexity": "高",
+          "required_skills": ["工程经验", "规范"]
+        },
+        {
+          "task_name": "现场协调",
+          "task_description": "协调施工现场问题",
+          "ai替代可行性": 0.30,
+          "estimated_year": 2031,
+          "task_complexity": "高",
+          "required_skills": ["协调", "经验"]
+        },
+        {
+          "task_name": "客户沟通",
+          "task_description": "与客户沟通需求和方案",
+          "ai替代可行性": 0.35,
+          "estimated_year": 2030,
+          "task_complexity": "中",
+          "required_skills": ["沟通", "设计理解"]
+        }
+      ]
+    },
+    {
+      "occupation_code": "N0101",
+      "occupation_name": "客服代表",
+      "industry_association": ["K租赁和商务服务业", "I金融业", "F批发和零售业"],
+      "core_tasks": [
+        {
+          "task_name": "问题解答",
+          "task_description": "回答客户常见问题",
+          "ai替代可行性": 0.85,
+          "estimated_year": 2025,
+          "task_complexity": "低",
+          "required_skills": ["产品知识", "沟通"]
+        },
+        {
+          "task_name": "投诉处理",
+          "task_description": "处理客户投诉和纠纷",
+          "ai替代可行性": 0.45,
+          "estimated_year": 2028,
+          "task_complexity": "高",
+          "required_skills": ["沟通", "应变"]
+        },
+        {
+          "task_name": "业务办理",
+          "task_description": "帮助客户办理业务",
+          "ai替代可行性": 0.75,
+          "estimated_year": 2026,
+          "task_complexity": "中",
+          "required_skills": ["业务知识", "系统操作"]
+        },
+        {
+          "task_name": "情感支持",
+          "task_description": "提供情感性客户服务",
+          "ai替代可行性": 0.20,
+          "estimated_year": 2033,
+          "task_complexity": "高",
+          "required_skills": ["同理心", "情商"]
+        }
+      ]
+    }
+  ]
+}

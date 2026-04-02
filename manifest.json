@@ -1,0 +1,73 @@
+{
+  "name": "AI职业罗盘",
+  "version": "1.0.0",
+  "description": "分析各行各业被AI代替的程度和趋势，提供行业×学历双维度分析",
+  "author": "AI Career Compass Team",
+  "icon": "🔮",
+  "category": "工具",
+  "tags": [
+    "AI分析",
+    "职业规划",
+    "数据分析",
+    "行业研究",
+    "风险评估"
+  ],
+  "homepage": "https://github.com/your-username/ai-career-compass",
+  "repository": "https://github.com/your-username/ai-career-compass",
+  "screenshots": [
+    "https://raw.githubusercontent.com/your-username/ai-career-compass/main/screenshots/homepage.png",
+    "https://raw.githubusercontent.com/your-username/ai-career-compass/main/screenshots/assessment.png"
+  ],
+  "features": [
+    "行业AI替代风险热力图",
+    "10个主要行业风险评估",
+    "年份预测（2024-2035）",
+    "学历影响分析",
+    "个人职业风险评估",
+    "转型建议推荐"
+  ],
+  "tech_stack": {
+    "frontend": {
+      "framework": "Next.js 14",
+      "language": "TypeScript",
+      "ui": "Tailwind CSS",
+      "visualization": "ECharts"
+    },
+    "backend": {
+      "framework": "FastAPI",
+      "language": "Python",
+      "database": "PostgreSQL",
+      "cache": "Redis"
+    }
+  },
+  "dependencies": {
+    "frontend": {
+      "node": ">=18.0.0",
+      "npm": ">=9.0.0",
+      "memory": ">=2GB",
+      "disk": ">=500MB"
+    },
+    "backend": {
+      "python": ">=3.8.0",
+      "pip": "included"
+    }
+  },
+  "license": "MIT",
+  "pricing": {
+    "type": "free",
+    "description": "完全免费开源"
+  },
+  "documentation": "https://github.com/your-username/ai-career-compass#readme",
+  "support": {
+    "email": "support@ai-career-compass.com",
+    "issues": "https://github.com/your-username/ai-career-compass/issues"
+  },
+  "keywords": [
+    "AI",
+    "职业规划",
+    "风险评估",
+    "行业分析",
+    "就业",
+    "未来工作"
+  ]
+}

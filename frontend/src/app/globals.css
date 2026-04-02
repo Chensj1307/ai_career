@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 高级配色方案 - 优雅的蓝紫渐变主题 */
+  --primary: 222 47% 31%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 217 33% 17%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 217 91% 60%;
+  --accent-foreground: 222 47% 11%;
+  --background: 220 20% 97%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 217 91% 60%;
+  --radius: 0.75rem;
+  
+  /* 高级渐变配色 */
+  --gradient-start: 220 20% 97%;
+  --gradient-end: 220 20% 94%;
+  --gradient-accent: 217 91% 60%;
+  
+  /* 高级强调色 */
+  --premium-blue: 217 91% 60%;
+  --premium-purple: 262 83% 58%;
+  --premium-indigo: 239 84% 67%;
+  --premium-cyan: 199 89% 48%;
+  --premium-teal: 174 72% 56%;
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: linear-gradient(
+    135deg,
+    hsl(var(--gradient-start)) 0%,
+    hsl(220 30% 96%) 50%,
+    hsl(220 20% 98%) 100%
+  );
+  min-height: 100vh;
+}
+
+/* 高级卡片样式 - 玻璃态效果 */
+.card-premium {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(248, 250, 252, 0.9) 100%
+  );
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03),
+    0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+  backdrop-filter: blur(10px);
+}
+
+/* 高级按钮样式 */
+.btn-premium {
+  background: linear-gradient(
+    135deg,
+    hsl(217 91% 60%) 0%,
+    hsl(262 83% 58%) 100%
+  );
+  border: none;
+  box-shadow: 
+    0 4px 14px 0 rgba(99, 102, 241, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-premium:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 6px 20px 0 rgba(99, 102, 241, 0.4),
+    0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 发光效果 */
+.glow {
+  box-shadow: 
+    0 0 20px rgba(99, 102, 241, 0.2),
+    0 0 40px rgba(99, 102, 241, 0.1);
+}
+
+.glow-text {
+  text-shadow: 0 0 30px rgba(99, 102, 241, 0.3);
+}
+
+/* 玻璃态效果 */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 高级边框 */
+.border-premium {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* 自定义滚动条 - 浅色主题 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(210 40% 96%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(215 20% 65%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(215 20% 50%);
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(99, 102, 241, 0.4);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.5s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* 高级文字渐变 */
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    #4f46e5 0%,
+    #7c3aed 50%,
+    #2563eb 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 网格背景 */
+.bg-grid {
+  background-image: 
+    linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* 高级阴影 */
+.shadow-premium {
+  box-shadow: 
+    0 10px 40px -10px rgba(0, 0, 0, 0.1),
+    0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* 悬停效果 */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 40px -12px rgba(0, 0, 0, 0.15),
+    0 8px 20px rgba(0, 0, 0, 0.1);
+}
